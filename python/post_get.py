@@ -2,8 +2,6 @@
 # -*- coding:utf-8 -*-
 import sys
 import os
-
-
 import urllib  
 import urllib2  
 def http_post(url, data):  

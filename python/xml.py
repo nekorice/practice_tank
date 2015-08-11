@@ -54,7 +54,6 @@ def packback(path):
 
 if __name__ == "__main__":
     #do something
-    #print sys.argv
     if len(sys.argv) > 1:
         f = sys.argv[1]
         path = f.split('.')[0]
