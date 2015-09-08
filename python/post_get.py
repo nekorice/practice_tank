@@ -23,7 +23,7 @@ def http_post(url, data):
 
 def http_get(host, data):
  
-    data = urllib.urlencode(temp) 
+    data = urllib.urlencode(data) 
     url = '%s?%s' % (host, data)
     
     try:
@@ -35,5 +35,5 @@ def http_get(host, data):
         return ''
     
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     pass
